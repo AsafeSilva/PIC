@@ -1,4 +1,4 @@
-#PWM com Módulo CCP
+# PWM com Módulo CCP
 
 Configure o PWM no arquivo `PWM.h` alterando os valores dos registradores pertinentes.
 
