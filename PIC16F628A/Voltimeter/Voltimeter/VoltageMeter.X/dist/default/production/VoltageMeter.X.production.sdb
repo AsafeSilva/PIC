@@ -1,0 +1,262 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+[v i1___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+[v i1___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"53 C:\Users\Marcos\Desktop\projetos\FONTE\VoltageMeter.X\main.c
+[v _Interrupt Interrupt `II(v  1 e 1 0 ]
+"137
+[v _main main `(v  1 e 1 0 ]
+"169
+[v _readSerial readSerial `(uc  1 e 1 0 ]
+"188
+[v _averageADC averageADC `(f  1 e 3 0 ]
+"194
+[v _readADC readADC `(f  1 e 3 0 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v1.37\include\pic16f628a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"221
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S19 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"324
+[s S28 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S33 . 1 `S19 1 . 1 0 `S28 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES33  1 e 1 @11 ]
+"743
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+[s S59 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"832
+[s S66 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S70 . 1 `S59 1 . 1 0 `S66 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES70  1 e 1 @129 ]
+"881
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"942
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1380
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"1382
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"1384
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"1386
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"1392
+[v _RA6 RA6 `VEb  1 e 0 @46 ]
+"1394
+[v _RA7 RA7 `VEb  1 e 0 @47 ]
+"39 C:\Users\Marcos\Desktop\projetos\FONTE\VoltageMeter.X\main.c
+[v _uni uni `uc  1 e 1 0 ]
+[v _dez dez `uc  1 e 1 0 ]
+[v _cen cen `uc  1 e 1 0 ]
+"40
+[v _counter counter `uc  1 e 1 0 ]
+"41
+[v _controle controle `uc  1 e 1 0 ]
+"51
+[v _value value `f  1 e 3 0 ]
+"137
+[v _main main `(v  1 e 1 0 ]
+{
+"166
+} 0
+"194
+[v _readADC readADC `(f  1 e 3 0 ]
+{
+"197
+} 0
+"188
+[v _averageADC averageADC `(f  1 e 3 0 ]
+{
+[v averageADC@qnt qnt `uc  1 a 1 wreg ]
+"190
+[v averageADC@i i `uc  1 a 1 39 ]
+"189
+[v averageADC@readings readings `i  1 a 2 37 ]
+"188
+[v averageADC@qnt qnt `uc  1 a 1 wreg ]
+[v averageADC@qnt qnt `uc  1 a 1 40 ]
+"192
+} 0
+"169
+[v _readSerial readSerial `(uc  1 e 1 0 ]
+{
+"177
+[v readSerial@i i `i  1 a 2 3 ]
+"170
+[v readSerial@valueADC valueADC `uc  1 a 1 2 ]
+"186
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 15 ]
+"30
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 27 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 31 ]
+[v ___ftdiv@exp exp `uc  1 a 1 30 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 26 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 16 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 19 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 52 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 56 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 55 ]
+[v ___ftmul@exp exp `uc  1 a 1 51 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 41 ]
+[v ___ftmul@f2 f2 `f  1 p 3 44 ]
+"157
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"53 C:\Users\Marcos\Desktop\projetos\FONTE\VoltageMeter.X\main.c
+[v _Interrupt Interrupt `II(v  1 e 1 0 ]
+{
+"55
+[v Interrupt@segments segments `[10]i  1 a 20 32 ]
+"54
+[v Interrupt@number number `i  1 a 2 52 ]
+[v Interrupt@F619 F619 `[10]i  1 s 20 F619 ]
+"135
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v i1___ftmul __ftmul `(f  1 e 3 0 ]
+{
+[v i1___ftmul@f3_as_product __ftmul `um  1 a 3 5 ]
+[v i1___ftmul@sign __ftmul `uc  1 a 1 9 ]
+[v i1___ftmul@cntr __ftmul `uc  1 a 1 8 ]
+[v i1___ftmul@exp __ftmul `uc  1 a 1 4 ]
+[v i1___ftmul@f1 f1 `f  1 p 3 8 ]
+[v i1___ftmul@f2 f2 `f  1 p 3 11 ]
+"157
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v i1___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v i1___ftpack@arg arg `um  1 p 3 0 ]
+[v i1___ftpack@exp exp `uc  1 p 1 3 ]
+[v i1___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 19 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 23 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 18 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 10 ]
+"73
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 0 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 3 ]
+"13
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 7 ]
+[v ___awdiv@dividend dividend `i  1 p 2 9 ]
+"42
+} 0
