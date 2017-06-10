@@ -120,8 +120,8 @@ intentry 8 81 CODE 8 0
 config 400E 400F CONFIG 400E 0
 cstackCOMMON 70 75 COMMON 70 1
 %locals
-dist/default/production\Blink_TMR0_PIC16F628A.X.production.obj
-C:\Users\Marcos\AppData\Local\Temp\s5tk.
+dist/default/production\Blink_TMR0.production.obj
+C:\Users\Marcos\AppData\Local\Temp\s6n0.
 135 11 0 CODE 0
 138 11 0 CODE 0
 149 11 0 CODE 0

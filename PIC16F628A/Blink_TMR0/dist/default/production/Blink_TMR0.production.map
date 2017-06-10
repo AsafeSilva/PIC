@@ -3,13 +3,13 @@ Microchip MPLAB XC8 Compiler V1.42 ()
 Linker command line:
 
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.42\dat\en_msgs.txt -cs \
-  -h+dist/default/production\Blink_TMR0_PIC16F628A.X.production.sym \
-  --cmf=dist/default/production\Blink_TMR0_PIC16F628A.X.production.cmf -z \
-  -Q16F628A -oC:\Users\Marcos\AppData\Local\Temp\s5tk.2 \
-  -Mdist/default/production/Blink_TMR0_PIC16F628A.X.production.map -E1 \
-  -ver=XC8 -ASTACK=020h-06fh -pstack=STACK -ACODE=00h-07FFh \
-  -ASTRCODE=00h-07FFh -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 \
-  -AENTRY=00h-0FFhx8 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -h+dist/default/production\Blink_TMR0.production.sym \
+  --cmf=dist/default/production\Blink_TMR0.production.cmf -z -Q16F628A \
+  -oC:\Users\Marcos\AppData\Local\Temp\s6n0.2 \
+  -Mdist/default/production/Blink_TMR0.production.map -E1 -ver=XC8 \
+  -ASTACK=020h-06fh -pstack=STACK -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
+  -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
   -ABANK2=0120h-014Fh -ARAM=020h-06Fh,0A0h-0EFh,0120h-014Fh \
   -AABS1=020h-07Fh,0A0h-0EFh,0120h-014Fh -ASFR0=00h-01Fh -ASFR1=080h-09Fh \
   -ASFR2=0100h-011Fh -ASFR3=0180h-01EFh \
@@ -17,8 +17,8 @@ Linker command line:
   -pfunctab=CODE -ACONFIG=02007h-02007h -pconfig=CONFIG -DCONFIG=2 \
   -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-07Fh/02100h \
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
-  -DENTRY=2 -k C:\Users\Marcos\AppData\Local\Temp\s5tk.obj \
-  dist/default/production\Blink_TMR0_PIC16F628A.X.production.obj 
+  -DENTRY=2 -k C:\Users\Marcos\AppData\Local\Temp\s6n0.obj \
+  dist/default/production\Blink_TMR0.production.obj 
 
 Object code version is 3.11
 
@@ -27,11 +27,11 @@ Machine type is 16F628A
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\Marcos\AppData\Local\Temp\s5tk.obj
+C:\Users\Marcos\AppData\Local\Temp\s6n0.obj
                 end_init                             10       10        1        8       0
                 reset_vec                             0        0        1        0       0
                 config                             2007     2007        1     400E       0
-dist/default/production\Blink_TMR0_PIC16F628A.X.production.obj
+dist/default/production\Blink_TMR0.production.obj
                 cinit                                11       11        3        8       0
                 intentry                              4        4        C        8       0
                 text1                                14       14       1A        8       0

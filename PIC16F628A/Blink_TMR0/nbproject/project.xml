@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Blink_TMR0_PIC16F628A</name>
+            <name>Blink_TMR0</name>
             <creation-uuid>2e5c56a0-c36e-4999-b947-7a3237026315</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

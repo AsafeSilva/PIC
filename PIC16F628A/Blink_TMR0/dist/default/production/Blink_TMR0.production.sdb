@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16F628A ]
 [d frameptr 6 ]
-"14 D:\BACKUP\ASAFE\PIC\Software\Blink_TMR0_PIC16F628A.X\Blink_TMR0.c
+"14 D:\Documentos\GitHub\PIC\PIC16F628A\Blink_TMR0\Blink_TMR0.c
 [v _Interrupt Interrupt `II(v  1 e 1 0 ]
 "34
 [v _main main `(v  1 e 1 0 ]
@@ -15,7 +15,7 @@
 [v _eecpymem eecpymem `(v  1 e 1 0 ]
 "39
 [v _memcpyee memcpyee `(v  1 e 1 0 ]
-"12 D:\BACKUP\ASAFE\PIC\Software\Blink_TMR0_PIC16F628A.X\Blink_TMR0.c
+"12 D:\Documentos\GitHub\PIC\PIC16F628A\Blink_TMR0\Blink_TMR0.c
 [v _counter counter `uc  1 e 1 0 ]
 "57 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f628a.h
 [v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
@@ -64,7 +64,7 @@
 [v _TRISBbits TRISBbits `VES88  1 e 1 @134 ]
 "1431
 [v _RB0 RB0 `VEb  1 e 0 @48 ]
-"34 D:\BACKUP\ASAFE\PIC\Software\Blink_TMR0_PIC16F628A.X\Blink_TMR0.c
+"34 D:\Documentos\GitHub\PIC\PIC16F628A\Blink_TMR0\Blink_TMR0.c
 [v _main main `(v  1 e 1 0 ]
 {
 "51
