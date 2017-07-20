@@ -1,6 +1,6 @@
 /*
  * File:   main.c
- * Author: Marcos
+ * Author: Asafe
  *
  * Created on 20 de Julho de 2017, 00:52
  */
