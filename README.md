@@ -1,2 +1,2 @@
 # PIC
-Projetos diversos feito como microcontroladores PIC
+Projetos diversos feitos com microcontroladores PIC
